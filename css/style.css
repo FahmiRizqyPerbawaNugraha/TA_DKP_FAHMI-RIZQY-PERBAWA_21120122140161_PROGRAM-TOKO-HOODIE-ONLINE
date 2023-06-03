@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+.product {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.product p {
+    margin: 5px 0;
+}
+.product button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.product button:hover {
+    background-color: #45a049;
+}
+.product select {
+    margin-top: 5px;
+    padding: 5px;
+}
+.cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+.cart table {
+    width: 100%;
+}
+.cart th, .cart td {
+    padding: 5px;
+    text-align: left;
+}
+.cart th {
+    background-color: white;
+}
+.cart td:last-child {
+    text-align: right;
+}
+.cart .total {
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+}
+.product button {
+    background-color: #FF5722;
+}
+.product button:hover {
+    background-color: #E64A19;
+}
+.cart {
+    background-color: white;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .checkout table {
+            width: 100%;
+        }
+
+        .checkout th, .checkout td {
+            padding: 5px;
+            text-align: left;
+        }
+
+        .checkout th {
+            background-color: white;
+        }
+
+        .checkout td:last-child {
+            text-align: right;
+        }
+
+        .checkout .total {
+            font-weight: bold;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        button[type="button"] {
+            background-color: #c91212;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button[type="button"]:hover {
+            background-color: #c91212;
+        }
+
+        .message {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            color: #333;
+            border-radius: 3px;
+        }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        margin-bottom: 10px;
+    }
+    .confirmation {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+    }
+    .confirmation p {
+        margin: 5px 0;
+    }
+    .confirmation .total {
+        font-weight: bold;
+    }
+    .success {
+        background-color: #dff0d8;
+        color: #3c763d;
+        border: 1px solid #d6e9c6;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
